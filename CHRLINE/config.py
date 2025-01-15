@@ -138,14 +138,14 @@ class Config(object):
         self.DEVICE_TYPE = type
         self.isSecondary = False
         if type == "DESKTOPWIN":
-            self.APP_VER = "9.2.0.3403"
+            self.APP_VER = "9.5.0.3497"
             self.SYSTEM_NAME = "WINDOWS"
             self.SYSTEM_VER = "10.0.0-NT-x64"
         elif type == "DESKTOPMAC":
-            self.APP_VER = "9.2.0.3402"
+            self.APP_VER = "9.5.0.3497"
             self.SYSTEM_NAME = "MAC"
         elif type == "CHROMEOS":
-            self.APP_VER = "2.5.11"
+            self.APP_VER = "3.6.1"
             self.SYSTEM_NAME = "Chrome OS"
             self.SYSTEM_VER = "1"
         # elif type == "ANDROIDLITE":
