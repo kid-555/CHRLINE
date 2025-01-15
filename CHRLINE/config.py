@@ -131,7 +131,7 @@ class Config(object):
     )
 
     TOKEN_V3_SUPPORT = ["DESKTOPWIN", "DESKTOPMAC"]
-    SYNC_SUPPORT = ["IOS", "IOSIPAD", "ANDROID"]
+    SYNC_SUPPORT = ["IOS", "IOSIPAD", "ANDROID", "CHROMEOS","DESKTOPWIN","DESKTOPMAC"]
 
     def __init__(self, type="CHROME"):
         self.APP_NAME = None
